@@ -7,7 +7,7 @@ queue3 = []  # lowest priority range (7-9) for First come first serve algorithm
 # Taking user input from the user of process id and priority and burst time
 num_processes = int(input("Enter the num of processes ,: "))
 for i in range(num_processes):
-    priority = int(input("Enter the priority of process , here the processes are divided into 3 queues as per their priority{}: ".format(i+1)))
+    priority = int(input("Enter the priority of process {}, here the processes are divided into 3 queues as per their priority: ".format(i+1)))
     burst_time = int(input("Enter the burst time of process {}: ".format(i+1)))
     process = [i+1, priority, burst_time]  # Process id , and priority and birst time are stored in this order.
     if priority >= 0 and priority <= 3:
