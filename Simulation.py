@@ -16,6 +16,3 @@ for i in range(num_processes):
         queue2.append(process)
     else:
         queue3.append(process)
-print(queue1) #printing all the processes with burst time and process id and priority for queue 1
-print(queue2)#printing all the processes with burst time and process id and priority for queue 2
-print(queue3)#printing all the processes with burst time and process id and priority for queue 3
