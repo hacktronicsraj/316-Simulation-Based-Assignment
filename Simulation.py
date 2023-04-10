@@ -16,6 +16,10 @@ for i in range(num_processes):
         queue2.append(process)
     else:
         queue3.append(process)
+      
+queue1 = []
+queue2 = []
+queue3 = []
 #setting tq for each queue i.e 10
 quantum_time = 10
  
