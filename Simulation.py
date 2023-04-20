@@ -1,5 +1,4 @@
-#This is a part of the whole code and only has input taking and printing out the queues , I need to work on how to take the queues and working on them on how to put them in an cpu scheduling and algorithm and also I have to switch between queues of different algorithms every 10 seconds
- 
+
 queue1 = []  # high priority range (0-3) for Round Robin t q 4
 queue2 = []  # medium priority range (4-6) for priority scheduling algorithm
 queue3 = []  # lowest priority range (7-9) for First come first serve algorithm
